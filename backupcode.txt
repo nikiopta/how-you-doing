@@ -1,11 +1,11 @@
 name = input("hi what your name? ")
 print("hi", name)
-yd = input("how you doing? (only good or not good!) ")
-if yd == "good":
+yd = input("how you doing? (for best result say good or not good!) ")
+if yd == "good" or "awesome" or "great":
     print("nice to hear!")
     input()
     exit(0)
-if yd == "not good":
+if yd == "not good" or "awful" or "angry" or "bad" or "Negative":
     print("sorry to hear!")
     df = input("do you have friends? (yes or no only!) ")
     if df == "no":
