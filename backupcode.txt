@@ -30,3 +30,5 @@ if yd == "not good" or "awful" or "angry" or "bad" or "Negative":
             print("why you don't spend time with them? the going to make you happy!")
             input()
         exit(0)
+
+
