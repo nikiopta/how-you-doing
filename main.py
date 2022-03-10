@@ -21,3 +21,7 @@ if yd == "not good" or yd == "awful" or yd == "angry" or yd == "bad" or yd == "N
         print("its ok i recommend to [lzy some games talk to your friends or something like that its help me!")
         input()
         exit(0)
+else:
+    print("what do you want to say?")
+    input()
+    exit(0)
