@@ -1,12 +1,15 @@
-name = input("hi what your name? ")
-print("hi", name)
-yd = input("how you doing? (for best result say good or not good!) ")
-if yd == "good" or yd == "awesome" or yd == "great":
+while True:
+    name = input("hi what your name? ")
+    print("hi", name)
+    yd = input("how you doing? (good or not good only!) ")
+    if yd in ('good', 'not good'):
+        break
+if yd == "good":
     print("nice to hear,")
     print(name, "have a nice day!")
     input()
     exit(0)
-if yd == "not good" or yd == "awful" or yd == "angry" or yd == "bad" or yd == "Negative":
+if yd == "not good":
     print("sorry to hear!")
     input("what happen? ")
     hy = input("does something can help you? (yes or no) ")
